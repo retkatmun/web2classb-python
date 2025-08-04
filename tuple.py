@@ -1,0 +1,2 @@
+response =,
+print(type(number))
