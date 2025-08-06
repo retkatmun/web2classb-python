@@ -28,7 +28,7 @@ if amount > 0:
 else:
     print("Invalid amount")
 '''
-
+'''
 name = "Bankat"
 name2 = name + "helo"
 
@@ -42,3 +42,15 @@ print(name)
 name = 1 // 2
 print(name)
 
+
+name = {
+}
+
+name = "{}"
+print(type(name))
+'''
+
+my_dict = {'apple': 1, 'banana': 2, 'orange': 3}
+
+all_keys = my_dict.values()
+print(list(all_keys)) 
