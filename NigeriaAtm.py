@@ -38,3 +38,7 @@ print(hex(id(name2)))
 
 name = -3%2
 print(name)
+
+name = 1 // 2
+print(name)
+
