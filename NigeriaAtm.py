@@ -49,8 +49,16 @@ name = {
 name = "{}"
 print(type(name))
 '''
-
+''
 my_dict = {'apple': 1, 'banana': 2, 'orange': 3}
 
 all_keys = my_dict.values()
-print(list(all_keys)) 
+print(list(all_keys))
+'''
+
+d1 = {'x': 1, 'y': 2}
+d2 = {'y': 3, 'z': 4}
+
+d3 = d1 | d2
+print(d3)
+
