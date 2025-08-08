@@ -48,3 +48,4 @@ elif command_line == "register":
         else:
             print("Passwords do not match")
 else:
+    print("invalid") 	
