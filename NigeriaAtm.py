@@ -50,15 +50,67 @@ name = "{}"
 print(type(name))
 '''
 ''
+'''
 my_dict = {'apple': 1, 'banana': 2, 'orange': 3}
 
 all_keys = my_dict.values()
 print(list(all_keys))
 '''
 
-d1 = {'x': 1, 'y': 2}
-d2 = {'y': 3, 'z': 4}
+#1
+password = input("Enter your password: ")
+confirmed_password = input("confirmed password: ")
 
-d3 = d1 | d2
-print(d3)
+if password == confirmed_password:
+	print("password matched")
+else:
+    print("password mismatch")
+
+'''
+match confirmed_password:
+    case _ if confirmed_password == password:
+        print("Password matched")
+    case _:
+        print("Password mismatch")
+'''
+#2
+num1 = int(input("Enter number integer"))
+num2 = int(input("Enter second number"))
+
+result = num1 + num2
+print(result)
+
+#3
+score = [result]
+print(score)
+
+#4
+# Create a dictionary with one student record
+students = {
+    "student1": {
+        "name": "John Doe",
+        "level": "100",
+        "score": 70
+    }
+}
+students["student1"]["score"] += 10
+print(students)
+
+#5
+score = int(input("Enter the student's score (0-100): "))
+
+if 70 <= score <= 100:
+    print("A")
+elif 60 <= score <= 69:
+    print("B")
+elif 50 <= score <= 59:
+    print("C")
+elif 45 <= score <= 49:
+    print("D")
+elif 40 <= score <= 44:
+    print("E")
+elif 0 <= score <= 39:
+    print("F")
+else:
+    print("Invalid score")
 

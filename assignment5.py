@@ -1,9 +1,7 @@
 user_register = {}
-
 user_data = {"core": "pass1", "tk": "pass2", "mp": "pass3"}
 
 print("Login and\nRegistration portal\nSystem\n")
-
 command_line = input("Enter 'login' or 'register':>>> ")
 
 # LOGIN SECTION
